@@ -8,13 +8,13 @@ $valorOriginal = $_REQUEST['valorSaque'];
 
 shuffle($notas);
 echo "<h1><strong>Primeira sequencia:</h1></strong>";
-separarNotas($notas);
+separarNotas($notas,$valorOriginal);
 asort($notas);
 echo "<h1><strong>Segunda sequencia:</strong></h1>";
-separarNotas($notas);
+separarNotas($notas,$valorOriginal);
 arsort($notas);
 echo "<h1><strong>Terceira sequencia:</strong></h1>";
-separarNotas($notas);
+separarNotas($notas,$valorOriginal);
 
 
 

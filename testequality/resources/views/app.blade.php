@@ -30,7 +30,7 @@
   </div>
   <div class="form-group" id="notaDiv">
     <label for="exampleInputPassword1">Notas</label>
-    <input type="number" required="" style="width:100px" class="form-control" id="nota" name="nota[]">
+    <input type="number" required="" min:"1" max="1000" style="width:100px" class="form-control" id="nota" name="nota[]">
   </div>
   <button class="add_field_button" style="width:40px;font-size:40px;background-color: green" id="AdicionarNota">&#43;</button>
   <br>
